@@ -1,5 +1,5 @@
 body{
-    padding: 5% 14%;
+    padding: 5% 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -27,6 +27,7 @@ h1{
 .navbar-div{
     display: flex;
     justify-content: space-between;
+    padding: 0 3%;
 }
 
 .header-div{
@@ -53,9 +54,13 @@ h1{
 
 .img-top{
     display: inline-block;
-    text-align: center;
-    padding-left: 200px;
+   text-align: center;
 }
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* numbers div */
 .div-numbers{
@@ -201,6 +206,7 @@ input{
     color: white;
     font-size: 1rem;
     border-radius: 5px;
+    margin-top: 2.5%;
 }
 
 /* hover effects */
@@ -389,5 +395,8 @@ input{
 
 
 }
+
+
+
 
 
